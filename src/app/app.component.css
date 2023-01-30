@@ -10,7 +10,7 @@ body {
 }
   
   p {
-    background-color: rgb(61, 60, 60);
+    
     font-family: verdana;
     font-size: 20px;
   }
@@ -48,9 +48,23 @@ body {
   #grad1 {
     background-image: linear-gradient(180deg, rgb(189, 199, 183), rgb(226, 230, 6));
   }
-    #slide {
-        background-image: linear-gradient(180deg, rgb(189, 199, 183), rgb(230, 114, 6));  
-    } 
+    #sidebar {
+        
+        background-color: #32a4e7;
+        list-style-type: none;
+        margin: 0;
+       
+        width: 25%;
+        padding: 10px;
+        width: 15%;
+        
+        
+        right: 0;
+        height: 90%;
+        position: fixed; /* Make it stick, even on scroll */
+        overflow: auto;
+    
+    }
   
   
  

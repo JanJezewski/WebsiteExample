@@ -1,0 +1,23 @@
+       background-color: #32a4e7;
+        list-style-type: none;
+        margin: 0;
+       
+        width: 25%;
+        padding: 10px;
+        width: 180px;
+        
+        top: 0;
+        right: 0;
+        height: 100%;
+        position: fixed; /* Make it stick, even on scroll */
+        overflow: auto;
+
+
+ list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    width: 180px;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
