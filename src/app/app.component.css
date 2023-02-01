@@ -1,18 +1,18 @@
 body {
-    background-color: rgb(169, 170, 158);
+   
+    font: 100% Lucida Sans, Verdana;
+    margin: 20px;
+    line-height: 26px;
   }
-  
-  h1 {
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 4px #000000;
-    
-}
-  
   p {
     
     font-family: verdana;
-    font-size: 20px;
+    font-size: 0px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
   
   .active {
@@ -25,7 +25,7 @@ body {
     margin: 0;
     padding: 0;
     width: 25%;
-    background-color: #f1f1f1;
+    background-image: linear-gradient(180deg,rgb(230, 133, 6), rgb(148, 236, 93));
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */;
@@ -45,26 +45,23 @@ body {
     color: white;
   }
 
-  #grad1 {
-    background-image: linear-gradient(180deg, rgb(189, 199, 183), rgb(226, 230, 6));
-  }
-    #sidebar {
-        
-        background-color: #32a4e7;
-        list-style-type: none;
-        margin: 0;
-       
-        width: 25%;
-        padding: 10px;
-        width: 15%;
-        
-        
-        right: 0;
-        height: 90%;
-        position: fixed; /* Make it stick, even on scroll */
-        overflow: auto;
-    
-    }
+
+  #top {
+    background-image: linear-gradient(180deg, rgb(148, 236, 93), rgb(230, 133, 6));
+    color: #ffffff;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+#main {
+  background-image: linear-gradient(180deg,rgb(230, 133, 6), rgb(148, 236, 93));
+  height: 100%;
+  padding: 10px 16px;
+  margin:0  400px;
+}
+
+
   
   
  

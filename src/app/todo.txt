@@ -21,3 +21,46 @@
     height: 100%; /* Full height */
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
+
+        #sidebar {
+        
+        background-color: #32a4e7;
+        list-style-type: none;
+        margin: 0;
+       
+        width: 25%;
+        padding: 10px;
+        width: 15%;
+        
+        
+        right: 0;
+        height: 90%;
+        position: fixed; /* Make it stick, even on scroll */
+        overflow: auto;
+    
+    }
+
+        #sidebar {
+      background-color: #32a4e7;
+      color: #ffffff;
+      padding: 10px;
+      width: 180px;
+      bottom: 0;
+      top: 0;
+      right: 0;
+      position: absolute;
+  }
+
+   <div id = "sidebar">
+      <h3>Slide bar</h3>
+    
+    </div>
+
+        <div id="menu navbar">
+      <ul id="menulist">
+        <li ><a href="default.asp">Home</a></li>
+        <li><a href="news.asp">News</a></li>
+        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="about.asp">About</a></li>
+      </ul>
+    </div> 
