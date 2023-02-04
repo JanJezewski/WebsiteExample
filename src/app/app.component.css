@@ -1,67 +1,46 @@
 body {
-   
-    font: 100% Lucida Sans, Verdana;
-    margin: 20px;
-    line-height: 26px;
-  }
-  p {
-    
-    font-family: verdana;
-    font-size: 0px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-  }
-  
-  .active {
-    background-color: rgba(6, 230, 230, 0.418);
-    color: white;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-image: linear-gradient(180deg,rgb(230, 133, 6), rgb(148, 236, 93));
-    height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
-    overflow: auto; /* Enable scrolling if the sidenav has too much content */;
-  }
-
-  li a {
-    display: block;
-    color: rgb(247, 243, 243);
-    text-shadow: 2px 2px 4px #000000;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color on hover */
-  li a:hover {
-    background-color: rgb(226, 230, 6);
-    color: white;
-  }
-
-
-  #top {
-    background-image: linear-gradient(180deg, rgb(148, 236, 93), rgb(230, 133, 6));
-    color: #ffffff;
-    padding: 15px;
-    color: white;
-    text-align: center;
-    text-shadow: 2px 2px 4px #000000;
-}
-#main {
-  background-image: linear-gradient(180deg,rgb(230, 133, 6), rgb(148, 236, 93));
-  height: 100%;
-  padding: 10px 16px;
-  margin:0  400px;
+  background-color: rgb(255, 255, 255);
 }
 
 
-  
-  
+ul {
+  border-radius: 15px;
  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #aaa9a9;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px #3f3f3f;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ffbcbc;
+}
+#top h1, #top p, #menulist {
+  margin: 0;
+  padding: 0;
+}
+#aboutme{
+  background-color: #c4ffbc;
+  border-radius: 10px;
+  color: rgb(100, 96, 96);
+}
+#portfolio{
+  background-color: #edffbc;
+  border-radius: 10px;
+  color: rgb(131, 129, 129);
+}
