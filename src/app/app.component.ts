@@ -6,6 +6,28 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Web';
+  
+  displayAbout = '';
+  displayPort = '';
+  displayGit = '';
+  displayContact = '';
+
+
+  showAbout() {
+    this.displayAbout = 'Trochę o mnie';
+  }
+  
+  showPort() {
+    this.displayPort = 'Moje portfolio';
+  }
+  showGit() {
+    this.displayGit ='Mój git';
+  }
+  showContact() {
+    this.displayContact ='Mój contact';
+  }
 }
+
+
+
 

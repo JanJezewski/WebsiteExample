@@ -84,3 +84,23 @@
     border-radius: 4px;
     margin: 4px;
 }
+
+ <button (click)="showText()">Pokaż tekst</button>
+    <p>{{displayText}}</p>
+
+
+
+    const homeLink = document.querySelector("#home-link");
+homeLink.addEventListener("click", function() {
+  document.querySelector("#content").innerHTML = "Strona główna";
+});
+
+const aboutLink = document.querySelector("#about-link");
+aboutLink.addEventListener("click", function() {
+  document.querySelector("#content").innerHTML = "O nas";
+});
+
+const contactLink = document.querySelector("#contact-link");
+contactLink.addEventListener("click", function() {
+  document.querySelector("#content").innerHTML = "Kontakt";
+});

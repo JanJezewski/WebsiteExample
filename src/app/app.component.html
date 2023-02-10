@@ -5,30 +5,42 @@
   
 </head>
 <body>
-  <ul>
+  <ul class = "horizontal">
     <li class="material-icons"><a  href="#about">menu</a></li>
     
-    <li><a href="#about"> Omnie</a></li>
-    <li><a href="#portfolio">Portfolio</a></li>
-    <li><a href="#git">Mój gitHub</a></li>
-    <li><a  href="#contact">Contact</a></li>
+   
+    <li><a id="about" (click)="showAbout()">about</a></li>
+    <li><a id="port" (click)="showPort()">Portfolio</a></li>
+    <li><a id="Git" (click)="showGit()">Mój gitHub</a></li>
+    <li><a id="Contact" (click)="showContact()">Contact</a></li>
     <li class="rightli" class="material-icons" style="float:right"><a href="javascript:void(0)">favorite</a></li>
     <li class="rightli" class="material-icons" style="float:right"><a href="javascript:void(0)">cloud</a></li>
     </ul>
+
     
-     <div id="aboutme">
-      <h1>Trochę o mnie</h1>
+        <div id="aboutme">
+          <h1>{{displayAbout}}</h1>
       <p>
-        
       </p>
      </div>
-   
+    
      <div id="portfolio">
-      <h1>Moje portfolio</h1>
+      <h1 >{{displayPort}}</h1>
       <p>
-        
       </p>
      </div>
 
+     <div id="git">
+      <h1 >{{displayGit}}</h1>
+      <p>
+      </p>
+     </div>
+
+     <div id="contact">
+      <h1 >{{displayContact}}</h1>
+      <p>
+      </p>
+     </div>
+   
   </body>
 </html>
