@@ -26,6 +26,7 @@ export class AppComponent {
   showContact() {
     this.displayContact ='Mój contact';
   }
+
 }
 
 
