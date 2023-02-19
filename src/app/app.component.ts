@@ -11,10 +11,11 @@ export class AppComponent {
   displayPort = '';
   displayGit = '';
   displayContact = '';
+  config: { footer: string; date: Date; };
 
 
   showAbout() {
-    this.displayAbout = 'Trochę o mnie';
+   this.displayAbout = 'Trochę o mnie';
   }
   
   showPort() {
@@ -26,7 +27,13 @@ export class AppComponent {
   showContact() {
     this.displayContact ='Mój contact';
   }
-
+  constructor() {
+    this.config = {
+      footer: '© Moja Strona',
+      date: new Date(),
+      
+    }
+  }
 }
 
 
