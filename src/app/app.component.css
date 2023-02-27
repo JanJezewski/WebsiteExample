@@ -1,7 +1,13 @@
 body {
-  background-color: rgb(255, 255, 255);
+  font: 100% Lucida Sans, Verdana;
+    margin: 20px;
+    line-height: 26px;
 }
 
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
 
 ul.horizontal {
   border-radius: 15px;
@@ -24,6 +30,7 @@ li a {
   text-shadow: 2px 2px #3f3f3f;
   padding: 14px 16px;
   text-decoration: none;
+  
 }
 
 /* Change the link color to #111 (black) on hover */
@@ -61,3 +68,73 @@ li a:hover {
   color: rgb(250, 248, 248);
 }
 
+#Logo {
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 4px solid #f18e8e;
+  text-shadow: 2px 2px red;
+  text-align: center;
+  color:#aaa9a9; 
+}
+#sidebar {
+  background-color: #32a4e7;
+  color: #ffffff;
+  padding: 10px;
+  width: 180px;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+/**/
+hr {
+  box-sizing: content-box;
+  height: 10;
+  overflow: visible;
+}
+
+
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(151, 139, 139);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}

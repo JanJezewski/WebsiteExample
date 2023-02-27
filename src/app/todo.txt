@@ -141,3 +141,11 @@ contactLink.addEventListener("click", function() {
     </ul>
   </div>
         
+ 
+    <div id="sidebar">
+      <h3>Side-Bar</h3>
+      <p>Lorem ipsum dolor sit amet, 
+        consectetuer adipiscing elit, 
+        sed diam nonummy nibh euismod tincidunt 
+        ut laoreet dolore magna aliquam erat volutpat.</p>
+    </div>
